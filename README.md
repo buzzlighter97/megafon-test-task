@@ -4,11 +4,11 @@ ENG
 
 Functionality:
 
-> parses given city forecast info for the next 7 days from yandex.ru/pogoda/{city name}/details;
+* parses given city forecast info for the next 7 days from yandex.ru/pogoda/{city name}/details;
 
-> calculates average daytime temperature;
+* calculates average daytime temperature;
 
-> checks if there's steep change in air pressure (more than 5 mm Hg);
+* checks if there's steep change in air pressure (more than 5 mm Hg);
 
 Result: open .xlsx file with forecast information stored in excel_files/ directory.
 
@@ -26,11 +26,11 @@ RU
 
 Функционал:
 
-> парсит прогноз погоды на неделю в переданном городе из yandex.ru/pogoda/{название города}/details;
+* парсит прогноз погоды на неделю в переданном городе из yandex.ru/pogoda/{название города}/details;
 
-> вычисляет среднесуточную температуру;
+* вычисляет среднесуточную температуру;
 
-> проверяет, будет ли заметное изменение атмосферного давления (больше 5 мм. рт. ст.);
+* проверяет, будет ли заметное изменение атмосферного давления (больше 5 мм. рт. ст.);
 
 Результат: открытый .xslx файл с прогнозом погоды, сохранённый в папке excel_files/
 
