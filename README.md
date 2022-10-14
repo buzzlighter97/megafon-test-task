@@ -1,8 +1,8 @@
 # megafon-test-task
 
-ENG
+## ENG
 
-Functionality:
+### Functionality:
 
 * parses given city forecast info for the next 7 days from yandex.ru/pogoda/{city name}/details;
 
@@ -10,21 +10,25 @@ Functionality:
 
 * checks if there's steep change in air pressure (more than 5 mm Hg);
 
-Result: open .xlsx file with forecast information stored in excel_files/ directory.
+### Result:
 
-Start: 
+Open .xlsx file with forecast information stored in excel_files/ directory.
+
+### Start: 
+
 console start following pattern
+
 ```python main.py {city name in english notation}```
 
-OR
+#### OR
 
 average run with console city name input
 
 
 
-RU
+## RU
 
-Функционал:
+### Функционал:
 
 * парсит прогноз погоды на неделю в переданном городе из yandex.ru/pogoda/{название города}/details;
 
@@ -32,12 +36,16 @@ RU
 
 * проверяет, будет ли заметное изменение атмосферного давления (больше 5 мм. рт. ст.);
 
-Результат: открытый .xslx файл с прогнозом погоды, сохранённый в папке excel_files/
+### Результат:
 
-Старт:
+открытый .xslx файл с прогнозом погоды, сохранённый в папке excel_files/
+
+### Старт:
+
 запуск в консоли по шаблону
+
 ```python main.py {название города на английском}```
 
-ИЛИ
+#### ИЛИ
 
 стандартный запуск с передачей названия города в консоль
