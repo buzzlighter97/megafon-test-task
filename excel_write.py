@@ -43,6 +43,7 @@ def write_to_excel(city_name: str, result_list: List) -> NoReturn:
         ws.cell(row=2, column=7).value = day[2]
         ws.cell(row=2, column=8).value = day[5]
     delete_first_sheet(wb)
+    os.mkdir(os.path.abspath('excel_files'))
     wb.save(file_name)
     time.sleep(5)
     os.startfile(os.path.abspath(file_name))
